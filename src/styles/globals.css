@@ -138,8 +138,8 @@ h2 {
   margin-right: 10vh;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
+.graphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
