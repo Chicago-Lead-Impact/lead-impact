@@ -100,18 +100,39 @@ a {
   text-decoration: none;
 }
 
-.box {
-  color: black;
+h1 {
+  font-size: 4em;
+  color:#2EA29A;
+}
+
+h2 {
+  font-size: 2.5;
+  color:#2EA29A;
+}
+
+.text {
+  color:#707070;
+  font-size: 1.5em;
+}
+
+.links {
   display: flex;
-  align-items: center;
-  font:"Railway";
+  flex-direction: row;
+  color:#707070;
+  font-size: 1.5em;
+  padding-left: 25%;
+  padding-right: 25%;
+  justify-content: space-between;
+}
 
-  margin: 25px;
+.box {
+  display: flex;
+  flex-direction: column;
 
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  margin-top: 40vh;
+  margin-bottom: 50vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
 }
 
 /* @media (prefers-color-scheme: dark) {
