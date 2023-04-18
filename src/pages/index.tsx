@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { XYPlot, LineSeries, VerticalBarSeries,MarkSeries } from 'react-vis';
-import "react-vis/dist/style.css";
 
+import InnerHTML from 'dangerously-set-html-content'
+
+const graphs = (await import('../../public/graphs')).graphs
 
 const boxVariants = {
   visible: { opacity: 1, scale: 1, transition: { duration: 1, delay: 0.6, } },
@@ -35,33 +36,34 @@ const Box = ({ children }: any) => {
   );
 };
 
-const Graph1 = () => {
-  const data = [
-    { x: 0, y: 8 },
-    { x: 1, y: 5 },
-    { x: 2, y: 4 },
-    { x: 3, y: 9 },
-    { x: 4, y: 1 },
-    { x: 5, y: 7 },
-    { x: 6, y: 6 },
-    { x: 7, y: 3 },
-    { x: 8, y: 2 },
-    { x: 9, y: 0 }
-  ];
-  return (
-    <div className="graphs">
-      <XYPlot height={200} width={200}>
-        <VerticalBarSeries barWidth={1} data={data}/>
-      </XYPlot>
-      <XYPlot height={200} width={200}>
-        <LineSeries data={data} />
-      </XYPlot>
-      <XYPlot height={200} width={200}>
-        <MarkSeries data={data} />
-      </XYPlot>
-    </div>
-  );
-}
+
+// const Graph1 = () => {
+//   const data = [
+//     { x: 0, y: 8 },
+//     { x: 1, y: 5 },
+//     { x: 2, y: 4 },
+//     { x: 3, y: 9 },
+//     { x: 4, y: 1 },
+//     { x: 5, y: 7 },
+//     { x: 6, y: 6 },
+//     { x: 7, y: 3 },
+//     { x: 8, y: 2 },
+//     { x: 9, y: 0 }
+//   ];
+//   return (
+//     <div className="graphs">
+//       <XYPlot height={200} width={200}>
+//         <VerticalBarSeries barWidth={1} data={data}/>
+//       </XYPlot>
+//       <XYPlot height={200} width={200}>
+//         <LineSeries data={data} />
+//       </XYPlot>
+//       <XYPlot height={200} width={200}>
+//         <MarkSeries data={data} />
+//       </XYPlot>
+//     </div>
+//   );
+// }
 
 export default function App() {
   return (
@@ -91,8 +93,6 @@ export default function App() {
         <div className="text">
           A smaller piece of text, and a lot more graphs to view and interact with make a big difference.
         </div>
-        <Graph1 />
-        <Graph1 />
       </Box>
       <Box>
         <h2>
@@ -100,6 +100,7 @@ export default function App() {
         </h2>
         <div className="text">
           Geographical data is very important to this topic. We can make a big impact by helping people visualize the communities impacted. An interactive aspect to this is important, and integral to understanding the problem at hand.
+          <InnerHTML html={graphs.graph_top10places}></InnerHTML>
         </div>
       </Box>
       <Box>
