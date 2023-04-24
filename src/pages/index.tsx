@@ -100,7 +100,8 @@ export default function App() {
         </h2>
         <div className="text">
           Geographical data is very important to this topic. We can make a big impact by helping people visualize the communities impacted. An interactive aspect to this is important, and integral to understanding the problem at hand.
-          <InnerHTML html={graphs.graph_top10places}></InnerHTML>
+          <InnerHTML html={graphs.graph_allcommunities}></InnerHTML>
+          <InnerHTML html={graphs.graph_top10communities}></InnerHTML>
         </div>
       </Box>
       <Box>
