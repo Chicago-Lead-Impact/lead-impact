@@ -80,24 +80,35 @@ export default function App() {
       </Box>
       <Box>
         <h2>
-          Important Data and Important Text
+        Lead is hurting Chicago.
         </h2>
         <div className="text">
-          When we have a lot of text, and a lot of data, we want to let it shine. This screen demonstrates what that may look like. Here is an interactive graph that we want users to focus on, with a lot of text.
+        In 2014, the Flint Michigan water crisis gained national attention due to the high levels of lead found in the drinking water, and visibly contaminated water coming out of the taps. The nationally recognized crisis initiated a push for water testing, and led to blood testing in high risk communities.
+Chicago's historically required lead pipes to connect homes to the city's water system up until 1986, which was decades after most cities had banned them due to lead's severe toxicity and developmental concerns.
+Lead drinking water can contribute 40 to 60 percent of an infant's lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city, and seeing 
         </div>
       </Box>
       <Box>
         <h2>
-          Big Comparisons make a Big Difference
+        Lead Testing & Our Data
         </h2>
         <div className="text">
-          A smaller piece of text, and a lot more graphs to view and interact with make a big difference.
+        There is no acceptable level of lead in the blood.
+
+We are primarily interested in data regarding children ages 1 to 5 years old with a blood lead level greater than 6 μg/dL. Lead exposure primarily comes from lead paint, but also drinking water.
+
         </div>
       </Box>
       <Box>
         <h2>
-          Here is a short blurb of text.
+        Impacted Communities
         </h2>
+        <div className="text">
+        This heat map demonstrates the number of cases per community. The southwest communities, West Englewood and Englewood have the highest percentage cases of lead poisoning within children under the age of 6. 
+        {/* <InnerHTML html={graphs.graph_allcommunities}></InnerHTML> */}
+        {/* <InnerHTML html={graphs.graph_allcommunities}></InnerHTML> */}
+        {/* <InnerHTML html={graphs.graph_allcommunities}></InnerHTML> */}
+        </div>
         <div className="text">
           Geographical data is very important to this topic. We can make a big impact by helping people visualize the communities impacted. An interactive aspect to this is important, and integral to understanding the problem at hand.
           <InnerHTML html={graphs.graph_allcommunities}></InnerHTML>
