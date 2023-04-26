@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import InnerHTML from 'dangerously-set-html-content'
+import Image from 'next/image'
 
 const graphs = (await import('../../public/graphs')).graphs
 
@@ -79,6 +80,22 @@ export default function App() {
         <div className="row-graphs">
           <InnerHTML html={graphs.graph_top10communities}></InnerHTML>
           <InnerHTML html={graphs.graph_low10communities}></InnerHTML>
+        </div>
+      </Box>
+      <Box>
+        <h2>
+          Communities at risk tend to be near one another.
+        </h2>
+        <div className="text">
+          This heat map demonstrates the number of cases per community. The southwest communities, West Englewood and Englewood have the highest percentage cases of lead poisoning within children under the age of 6. 
+        </div>
+        <div className="row-graphs">
+        <Image
+          src="/heatmaps.png"
+          width={646}
+          height={354}
+          alt="Heat Map Image"
+        />
         </div>
       </Box>
       <Box>
