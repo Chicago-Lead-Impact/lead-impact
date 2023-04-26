@@ -109,6 +109,16 @@ export default function App() {
         </div>
       </Box>
       <Box>
+        <h2>Lead percent poisoning compared to hardship, life expectancy and average income per community</h2>
+        <div className="text">
+          The size of the dot on plot indicates the average income of the community
+        </div>
+        <div className="scatter-plots">
+          <InnerHTML html={graphs.graph_hardship}></InnerHTML>
+          <InnerHTML html={graphs.graph_life}></InnerHTML>
+        </div>
+      </Box>
+      <Box>
         <div className="text">
           The lead crisis in Chicago is real, and not just an infrastructure problem, but instead a social and health crisis. The impacts of lead on the populations of Chicago will have repercussions for years to come.
         </div>
