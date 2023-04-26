@@ -56,10 +56,10 @@ export default function App() {
           In 2014, the Flint Michigan water crisis gained national attention due to the high levels of lead found in the drinking water, and visibly contaminated water coming out of the taps. The nationally recognized crisis initiated a push for water testing, and led to blood testing in high risk communities.
         </div>
         <div className="text">
-          Chicago’s historically required lead pipes to connect homes to the city's water system up until 1986, which was decades after most cities had banned them due to lead's severe toxicity and developmental concerns.
+          Chicago&apos;s historically required lead pipes to connect homes to the city&apos;s water system up until 1986, which was decades after most cities had banned them due to lead&apos;s severe toxicity and developmental concerns.
         </div>
         <div className="text">
-          Lead drinking water can contribute <span className="highlight-text">40 to 60 percent</span> of an infant's lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city, and seeing
+          Lead drinking water can contribute <span className="highlight-text">40 to 60 percent</span> of an infant&apos;s lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city, and seeing
         </div>
         <div className="text"></div>
         <h2>
