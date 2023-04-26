@@ -43,11 +43,10 @@ export default function App() {
         <h1>
           Impacts of Lead in Chicago Neighborhoods
         </h1>
-        <div className="links">
-          <a href="">learn</a>
-          <a href="">explore</a>
-          <a href="">advocate</a>
+        <div className="text">
+          Using data science to learn more about how lead impacts Chicago communities in 2021.
         </div>
+        <div className="down-arrow"></div>
       </Box>
       <Box>
         <h2>
@@ -60,17 +59,17 @@ export default function App() {
           Chicago’s historically required lead pipes to connect homes to the city's water system up until 1986, which was decades after most cities had banned them due to lead's severe toxicity and developmental concerns.
         </div>
         <div className="text">
-          Lead drinking water can contribute <span className="highlight-text">40 to 60 percent</span> of an infant's lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city, and seeing 
+          Lead drinking water can contribute <span className="highlight-text">40 to 60 percent</span> of an infant's lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city, and seeing
         </div>
         <div className="text"></div>
         <h2>
           About the data
         </h2>
         <div className="text">
-        We gathered our data from the Chicago Health Atlas. We are interested in data regarding children ages 1 to 5 years old with a blood lead level greater than 6 μg/dL. Lead exposure primarily comes from lead paint, but also drinking water.
+          We gathered our data from the Chicago Health Atlas. We are interested in data regarding children ages 1 to 5 years old with a blood lead level greater than 6 μg/dL. Lead exposure primarily comes from lead paint, but also drinking water.
         </div>
         <div className="text">
-          It is important to remember that <span className="highlight-text">there is no acceptable level of lead in the blood</span>, but due to changes in reporting standards overtime, we are only reporting blood lead levels greater than 6 μg/dL. 
+          It is important to remember that <span className="highlight-text">there is no acceptable level of lead in the blood</span>, but due to changes in reporting standards overtime, we are only reporting blood lead levels greater than 6 μg/dL.
         </div>
       </Box>
       <Box>
@@ -94,7 +93,7 @@ export default function App() {
       </Box>
       <Box>
         <div className="text">
-        The lead crisis in Chicago is real, and not just an infrastructure problem, but instead a social and health crisis. The impacts of lead on the populations of Chicago will have repercussions for years to come.
+          The lead crisis in Chicago is real, and not just an infrastructure problem, but instead a social and health crisis. The impacts of lead on the populations of Chicago will have repercussions for years to come.
         </div>
       </Box>
     </div>
