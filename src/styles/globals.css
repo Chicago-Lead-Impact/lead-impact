@@ -128,6 +128,21 @@ h2 {
   justify-content: center;
 }
 
+.heatmap-headers{
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.heatmap-graphs{
+  display:flex;
+  justify-content: space-around;
+}
+
+.scatter {
+  display:block;
+}
+
 .links {
   display: flex;
   flex-direction: row;
