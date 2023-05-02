@@ -162,6 +162,16 @@ h2 {
   margin-right: 20vh;
 }
 
+.content-box {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+
 .graphs {
   display: flex;
   flex-direction: row;

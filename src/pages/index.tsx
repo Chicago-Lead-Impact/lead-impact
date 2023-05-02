@@ -49,7 +49,7 @@ export default function App() {
         </div>
         <div className="down-arrow"></div>
       </Box>
-      <Box>
+      <div className="content-box">
         <h2>
           Lead is contaminating Chicago homes, and hurting families.
         </h2>
@@ -60,7 +60,7 @@ export default function App() {
           Chicago&apos;s historically required lead pipes to connect homes to the city&apos;s water system up until 1986, which was decades after most cities had banned them due to lead&apos;s severe toxicity and developmental concerns.
         </div>
         <div className="text">
-          Lead drinking water can contribute <span className="highlight-text">40 to 60 percent</span> of an infant&apos;s lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city, and seeing
+          Lead drinking water can contribute <span className="highlight-text">40 to 60 percent</span> of an infant&apos;s lead exposure. Lead exposure has been linked to lower IQ levels, behavioral disorders, and violence in adulthood. Examining the current impacts of lead on communities in Chicago is important to understanding resource distribution in the city.
         </div>
         <div className="text"></div>
         <h2>
@@ -70,7 +70,7 @@ export default function App() {
           We gathered our data from the Chicago Health Atlas. We are interested in data regarding children ages 1 to 5 years old with a blood lead level greater than 6 μg/dL. Lead exposure primarily comes from lead paint, but also drinking water.
         </div>
         <div className="text">
-          It is important to remember that <span className="highlight-text">there is no acceptable level of lead in the blood</span>, but due to changes in reporting standards overtime, we are only reporting blood lead levels greater than 6 μg/dL.
+          It is important to remember that <span className="highlight-text">there is no acceptable level of lead in the blood</span>, but due to changes in reporting standards over time, we are only reporting blood lead levels greater than 6 μg/dL.
         </div>
         <h2>
           A Discussion on Testing
@@ -99,8 +99,8 @@ export default function App() {
         <div className="text">
           These findings emphasize the need for more equitable testing and intervention strategies to protect vulnerable populations from the harmful effects of lead exposure. Addressing these disparities is essential for ensuring the health and well-being of all children, regardless of their race or socioeconomic background.
         </div>
-      </Box>
-      <Box>
+      </div>
+      <div className="content-box">
         <h2>
           Lead levels in most and least impacted communities over time.
         </h2>
@@ -108,8 +108,8 @@ export default function App() {
           <InnerHTML html={graphs.graph_top10communities}></InnerHTML>
           <InnerHTML html={graphs.graph_low10communities}></InnerHTML>
         </div>
-      </Box>
-      <Box>
+      </div>
+      <div className="content-box">
         <h2>
           Communities at risk tend to be near one another.
         </h2>
@@ -117,7 +117,7 @@ export default function App() {
           This heat map demonstrates the number of cases per community. The southwest communities, West Englewood and Englewood have the highest percentage cases of lead poisoning within children under the age of 6.
         </div>
         <div className="text">
-          Overtime, testing habits and demographics have changed. These are important considerations.
+          Over time, demographics have changed especially in the West Loop.
         </div>
         <div className="heatmap-headers">
           <h2>2017</h2>
@@ -147,30 +147,26 @@ export default function App() {
             alt="Heat Map Image"
           />
         </div>
-      </Box>
-      <Box>
-        <h2>
-          Communities with less resources are more likely to feel the impacts of lead poisoning.
-        </h2>
-        <div className="text">
-          As lead levels rise, preschool enrollment rates drop.
-          This says that the distribution of resources in these communities are unequal.
-          Children are not getting the same opportunities and are at higher risk in these areas.
-        </div>
+      </div>
+      <div className="content-box">
         <h2>Lead percent poisoning compared to hardship, life expectancy and average income per community</h2>
         <div className="text">
-          The size of the dot on plot indicates the average income of the community
+          The size of the dot on plot indicates the average income of the community.
+          <br></br>
+          The community with the highest median income is Lincoln Park, $127,833
+          <br></br>
+          The community with the lowest median income is Lincoln Park, $22,835
         </div>
         <div className="scatter-plots">
           <InnerHTML html={graphs.graph_hardship}></InnerHTML>
           <InnerHTML html={graphs.graph_life}></InnerHTML>
         </div>
-      </Box>
-      <Box>
+      </div>
+      <div className="content-box">
         <div className="text">
           The lead crisis in Chicago is real, and not just an infrastructure problem, but instead a social and health crisis. The impacts of lead on the populations of Chicago will have repercussions for years to come.
         </div>
-      </Box>
+      </div>
     </div>
   );
 }
