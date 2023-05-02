@@ -155,7 +155,7 @@ export default function App() {
           <br></br>
           The community with the highest median income is Lincoln Park, $127,833
           <br></br>
-          The community with the lowest median income is Lincoln Park, $22,835
+          The community with the lowest median income is Fuller Park, $22,835
         </div>
         <div className="scatter-plots">
           <InnerHTML html={graphs.graph_hardship}></InnerHTML>
