@@ -178,6 +178,12 @@ h2 {
   justify-content: space-between;
 }
 
+.center-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* CHEVRON */
 
 .down-arrow {
