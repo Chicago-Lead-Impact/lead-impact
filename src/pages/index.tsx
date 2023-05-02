@@ -166,6 +166,15 @@ export default function App() {
         <div className="text">
           The lead crisis in Chicago is real, and not just an infrastructure problem, but instead a social and health crisis. The impacts of lead on the populations of Chicago will have repercussions for years to come.
         </div>
+        <div>
+          <div>
+            <h2>The Team</h2>
+            <img src="team_pic.jpg" alt="Italian Trulli"
+              width="650"
+              height="500"
+            ></img>
+          </div>
+        </div>
       </div>
     </div>
   );
